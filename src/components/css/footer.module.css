@@ -1,0 +1,109 @@
+.container {
+  width: calc(100% - 22px);
+  min-height: 452px;
+  flex-shrink: 0;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212731;
+  margin: 11px;
+  margin-bottom: 16px;
+  margin-top: 45px;
+}
+
+.subContainer {
+  width: 100%;
+  max-width: 1024px;
+  height: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  column-gap: 17%;
+  row-gap: 40px;
+  padding: 50px 40px;
+}
+
+.navRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 13px;
+}
+
+.navHeading {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.navLink {
+  font-size: 13px;
+  line-height: 20px;
+  color: #b6bdc4;
+  white-space: nowrap;
+}
+
+.selectCountryDiv {
+  position: relative;
+  min-width: 120px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.countryName {
+  font-size: 13px;
+  line-height: 20px;
+  color: #d1d6da;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.countryOptions {
+  width: 100%;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  transform: translateY(-22px);
+  background-color: #212731;
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  border-radius: 3px;
+  border: 1px solid rgba(209, 214, 218, 0.5);
+}
+
+.countryOptions > .countryName {
+  width: 100%;
+}
+
+.countryArrow {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@media screen and (width < 630px) {
+  .selectCountryDiv {
+    justify-content: flex-start;
+  }
+}

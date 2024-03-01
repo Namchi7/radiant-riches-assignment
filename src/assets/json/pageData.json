@@ -1,0 +1,129 @@
+{
+  "title": "Best Website builders in the US",
+  "last_updated": "February 22, 2020",
+  "disclosure": "Advertisement Disclosure",
+  "tags": [
+    "Tools",
+    "AWS Builder",
+    "Start Build",
+    "Build Supplies",
+    "Tooling",
+    "BlueHosting"
+  ],
+  "blog_route": ["Home", "Hosting for all", "Hosting", "Hosting6", "Hosting5"],
+  "items": [
+    {
+      "title": "WixPro 72-Inch Responsive Website Builder-",
+      "short_intro": "Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)",
+      "main_highlights": {
+        "type": 1,
+        "content": "paragraph",
+        "highlights": "[What You Get]: Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides."
+      },
+      "rating": 9.8,
+      "evaluation": "Exceptional",
+      "image_name": "Builder 1",
+      "label": {
+        "is_label": true,
+        "label_name": "Best Choice",
+        "type": 1
+      },
+      "discount": null
+    },
+    {
+      "title": "SiteCraft 68-Inch Ultimate Web Design Studio-",
+      "short_intro": "Advanced Site Creation Toolkit, Intuitive Drag-and-Drop Editor for Dynamic Websites and E-commerce Platforms (Green/White)",
+      "main_highlights": {
+        "type": 1,
+        "content": "paragraph",
+        "highlights": "[What You Get]: Gain access to the SiteCraft design studio, featuring a robust selection of design elements, SEO optimization tools, and e-commerce integrations."
+      },
+      "rating": 9.5,
+      "evaluation": "Excellent",
+      "image_name": "Builder",
+      "label": {
+        "is_label": true,
+        "label_name": "Best Value",
+        "type": 2
+      },
+      "discount": null
+    },
+    {
+      "title": "WixPro 72-Inch Responsive Website Builder-",
+      "short_intro": "Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)",
+      "main_highlights": {
+        "type": 1,
+        "content": "paragraph",
+        "highlights": "[What You Get]: Receive the WixPro website builder suite, access to premium design templates, an extensive library of widgets and apps, and detailed step-by-step guides."
+      },
+      "rating": 9.3,
+      "evaluation": "Exceptional",
+      "image_name": "Builder 1",
+      "label": {
+        "is_label": false,
+        "label_value": null
+      },
+      "discount": null
+    },
+    {
+      "title": "CDK Resposive Builder:",
+      "short_intro": "An extensive library of widgets and apps, and detailed step-by-step guides",
+      "main_highlights": {
+        "type": 2,
+        "content": "points",
+        "highlights": [
+          {
+            "rating": 9.9,
+            "highlight": "Building Responsive"
+          },
+          {
+            "rating": 8.9,
+            "highlight": "Cool"
+          },
+          {
+            "rating": 8.9,
+            "highlight": "Docs"
+          }
+        ],
+        "why": ["Documentation", "Easy Use", "Out Of Box"]
+      },
+      "rating": 9.3,
+      "evaluation": "Exceptional",
+      "image_name": "CDK",
+      "label": {
+        "is_label": false,
+        "label_value": null
+      },
+      "discount": "26%"
+    }
+  ],
+  "related_deals": [
+    {
+      "title": "Computer Modern clasic with wix support",
+      "name": "Webbuilder 1",
+      "discount_tags": ["24% Off", "Limited Time"],
+      "currency": "$",
+      "original_price": "49.96",
+      "effective_price": "39.96",
+      "price_discount": "20%"
+    },
+    {
+      "title": "Computer Modern clasic with wix support",
+      "name": "Webbuilder 1",
+      "discount_tags": ["24% Off", "Limited Time"],
+      "currency": "$",
+      "original_price": "49.96",
+      "effective_price": "39.96",
+      "price_discount": "20%"
+    },
+    {
+      "title": "Computer Modern clasic with wix support",
+      "name": "Webbuilder 1",
+      "discount_tags": ["24% Off", "Limited Time"],
+      "currency": "$",
+      "original_price": "49.96",
+      "effective_price": "39.96",
+      "price_discount": "20%"
+    }
+  ]
+}

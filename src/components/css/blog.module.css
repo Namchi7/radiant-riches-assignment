@@ -1,0 +1,286 @@
+.container {
+  width: 100%;
+  max-width: 1040px;
+  margin-top: 30px;
+  padding-inline: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+
+  & > * {
+    width: 100%;
+  }
+}
+
+.topInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+
+  & > * {
+    width: 100%;
+  }
+}
+
+.blogTitle {
+  color: #2c384a;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.basicInfoDiv {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding-block: 14px;
+  border-top: 1.33px solid #e1e4e6;
+  border-bottom: 1.33px solid #e1e4e6;
+}
+
+.basicInfoLeft {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.basicInfo,
+.basicInfoRight {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+
+  color: #4b5665;
+  font-size: 13px;
+}
+
+.basicInfoRight {
+  position: relative;
+  justify-content: flex-end;
+  min-width: 115px;
+  gap: 4px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.relevant {
+  text-align: right;
+}
+
+.relevantOptions {
+  position: absolute;
+  left: 0;
+  transform: translateY(80%);
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.75rem;
+  border-radius: 6px;
+  border: 1px solid rgba(92, 104, 116, 0.25);
+  background-color: #ffffff;
+  padding: 0.5rem;
+}
+
+.relevantOptionName {
+  cursor: pointer;
+}
+
+.basicInfoIcon {
+  height: 20px;
+  width: 20px;
+}
+.relevantIcon {
+  height: 24px;
+  width: 24px;
+}
+
+.blogTags,
+.blogRoute {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.blogTag {
+  padding: 0.5rem;
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #4b5665;
+  font-size: 14px;
+  line-height: 20px;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.05);
+}
+
+.blogRoute {
+  font-weight: 600;
+  font-size: 13px;
+  color: #5c6874;
+  line-height: 20px;
+}
+.blogRouteName {
+  font-size: 13px;
+  font-weight: 400;
+  color: #727d87;
+  line-height: 20px;
+}
+
+.blogItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 40px;
+  overflow-x: visible;
+
+  & > * {
+    width: 100%;
+  }
+}
+
+.relatedDealsDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 35px;
+}
+
+.relatedDealsHeading {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  color: #2c384a;
+}
+
+.relatedDeals {
+  width: 100%;
+  min-width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 22px;
+}
+
+.signUpDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.signUpText {
+  width: 50%;
+  font-size: 32px;
+  line-height: 44px;
+  color: #5c6874;
+}
+
+.signUpInputDiv {
+  position: relative;
+  width: 40%;
+  border-radius: 12px;
+  background-color: #ffffff;
+  border: 1px solid rgba(92, 104, 116, 0.25);
+}
+
+.signUpInput {
+  width: 100%;
+  padding: 16px;
+  padding-right: 97px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5c6874;
+
+  &:focus {
+    outline: 2px solid #1b88f4;
+  }
+}
+
+.signUpBtn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  flex-shrink: 0;
+  width: 97px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b88f4;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.7px;
+  border: 0px solid transparent;
+  border-radius: 0 12px 12px 0;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@media screen and (width < 747px) {
+  .relatedDeals {
+    flex-wrap: wrap;
+  }
+  .signUpDiv {
+    flex-wrap: wrap;
+
+    & > * {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (width < 600px) {
+  .blogTitle {
+    font-size: 36px;
+    line-height: normal;
+  }
+  .basicInfoDiv {
+    flex-wrap: wrap;
+  }
+  .basicInfoRight {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (width < 500px) {
+  .container {
+    margin-top: 1rem;
+  }
+  .blogTitle {
+    font-size: 24px;
+    line-height: normal;
+  }
+  .basicInfoLeft {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (width < 350px) {
+  .blogTitle {
+    font-size: 20px;
+    line-height: normal;
+  }
+}
